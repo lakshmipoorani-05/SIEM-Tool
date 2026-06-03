@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Logs and data (may contain sensitive info)
+anomalies.txt
+log/*.csv
+processed/*.csv
+*.log
+
+# Keep folder structure
+!log/.gitkeep
+!processed/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
